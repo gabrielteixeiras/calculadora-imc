@@ -22,6 +22,7 @@
 
 body {
     background-color: var(--background-body);
+    height: 92em;
 }
 
 /* Header */
@@ -40,12 +41,13 @@ body {
 #home_link,
 #what_is_imc_link {
     text-decoration: none;
+    color: var(--verde);
+    font-weight: 900;
 }
 
 /* Main */
 #container-main {
     display: flex;
-    align-items: center;
     flex-direction: column;
 
     position: absolute;
@@ -54,16 +56,36 @@ body {
     transform: translate(-50%, -50%);
 
     width: 85vw;
+    height: 80em;
+    margin: 60vh 0 150vh 0;
+
     border-radius: 1rem;
     background-color: var(--background-block);
     box-shadow: 2px 2px 10px var(--verde);
 }
 
-#line {
-    background-color: var(--background);
-    width: 85vw;
-    height: .3vh;
-    border: none;
+.title {
+    font-size: 1.5rem;
+    padding: 5vw;
+    color: var(--verde);
+}
 
-    margin-bottom: 2rem;
+.paragraph,
+#container-list {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0 5vw;
+}
+
+#container-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 5vw
+    
+}
+
+.list {
+    padding-bottom: 1vh;
 }

@@ -40,6 +40,8 @@ body {
 #home_link,
 #what_is_imc_link {
     text-decoration: none;
+    color: var(--verde);
+    font-weight: 900;
 }
 
 /* Main */
